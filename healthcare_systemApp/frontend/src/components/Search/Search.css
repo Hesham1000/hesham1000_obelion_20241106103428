@@ -1,0 +1,96 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f7fa;
+  color: #333;
+}
+
+.search-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.search-header {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #2a9d8f;
+  color: #fff;
+}
+
+.search-header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.navigation-menu {
+  margin-top: 10px;
+}
+
+.navigation-menu a {
+  margin: 0 15px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.booking-form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-field {
+  margin-bottom: 15px;
+}
+
+.form-field label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-field select,
+.form-field input[type="date"],
+.form-field input[type="time"],
+.form-field textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.primary-action-button {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  background-color: #1d3557;
+  color: #fff;
+  text-align: center;
+  border: none;
+  border-radius: 4px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.primary-action-button:hover {
+  background-color: #457b9d;
+}
+
+.search-footer {
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px 0;
+  background-color: #264653;
+  color: #fff;
+}
+
+.search-footer a {
+  margin: 0 10px;
+  color: #fff;
+  text-decoration: none;
+}

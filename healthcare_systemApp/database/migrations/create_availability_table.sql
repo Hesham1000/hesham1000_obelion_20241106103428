@@ -1,0 +1,5 @@
+CREATE TABLE availability (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    monday VARCHAR(255) NOT NULL,
+    tuesday VARCHAR(255) NOT NULL
+);

@@ -1,0 +1,106 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f7fa;
+  color: #333;
+}
+
+.reminders {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.reminders-header {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #2a9d8f;
+  color: #fff;
+}
+
+.reminders-header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.reminders-header nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  margin: 10px 0 0;
+}
+
+.reminders-header nav ul li {
+  margin: 0 15px;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.reminders-main {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.reminders-main h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #1d3557;
+}
+
+.booking-form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.booking-form label {
+  display: block;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.booking-form select,
+.booking-form input[type="date"],
+.booking-form input[type="time"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
+.schedule-button {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  background-color: #1d3557;
+  color: #fff;
+  text-align: center;
+  border: none;
+  border-radius: 4px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.schedule-button:hover {
+  background-color: #457b9d;
+}
+
+.reminders-footer {
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px 0;
+  background-color: #264653;
+  color: #fff;
+}
+
+.reminders-footer p {
+  margin: 0;
+}
